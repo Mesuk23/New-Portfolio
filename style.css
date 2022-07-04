@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -75,4 +79,21 @@ footer {
     text-align: center;
     margin: 150px 0 10px 0;
     font-size: 18px;
+}
+
+.first-sec {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.second-sec {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.third-sec {
+    background-image: url(images/exp-bg.png);
+    background-position: left center;
+    background-repeat: no-repeat;
 }
